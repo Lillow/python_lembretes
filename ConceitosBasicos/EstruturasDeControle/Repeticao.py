@@ -29,7 +29,7 @@ for i in range(0, 11, 2):
 
 # Contando de 0 a 4
 contador = 0
-while contador < 5:
+while (contador < 5):
     print(contador)
     contador += 1
 
@@ -72,7 +72,7 @@ else:
 # Similar ao for-else, mas para loops while:
 
 contador = 0
-while contador < 5:
+while (contador < 5):
     print(contador)
     contador += 1
 else:
@@ -80,7 +80,7 @@ else:
 
 # Com `break`
 contador = 0
-while contador < 5:
+while (contador < 5):
     if contador == 3:
         break
     print(contador)
@@ -93,7 +93,7 @@ else:
 
 # Combinação de ambos os tipos de loops:
 i = 0
-while i < 3:
+while (i < 3):
     for j in range(3):
         print(f"i={i}, j={j}")
     i += 1
