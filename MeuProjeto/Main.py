@@ -12,6 +12,9 @@ de qual classe será utilizada para a
 criação de objetos em um arquivo à parte.
 '''
 
-meuObjeto = MinhaClasse('Atributo1', 'Atributo2') # instanciando um objeto
+meu_objeto = MinhaClasse('Atributo protegido', 'Atributo privado') # instanciando um objeto
 
-print(f'Atributo 1: {meuObjeto.atributo1}\nAtributo 2: {meuObjeto.atributo2}')
+print(f'Atributo 1: {meu_objeto.get_atributo_protected()}\nAtributo 2: {meu_objeto.atributo_private}')
+
+meu_objeto.atributo = 'Atributo público'
+meu_objeto.atributo_private = 'Atributo private alterado'
