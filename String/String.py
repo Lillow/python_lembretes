@@ -215,7 +215,7 @@ print("apple" > "banana")  # False
 
 
 # 12. Métodos Específicos
-zfill()
+#zfill()
 
 # Preenche a string com zeros à esquerda:
 
@@ -223,7 +223,7 @@ zfill()
 
 print("42".zfill(5))  # 00042
 
-expandtabs()
+#expandtabs()
 
 # Expande tabulações na string:
 
