@@ -1,0 +1,7 @@
+Kivy permite criar aplicativos para várias plataformas com o mesmo código base, incluindo Android e iOS. Para isso, você pode usar ferramentas como Buildozer para Android:
+Exemplo de Configuração Buildozer
+
+bash:
+
+buildozer init
+buildozer -v android debug
