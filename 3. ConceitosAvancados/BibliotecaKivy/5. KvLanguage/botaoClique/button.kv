@@ -1,0 +1,27 @@
+# O que está acontecendo aqui é que 
+# o Kivy procurará automaticamente um arquivo que tenha 
+# o mesmo nome da classe em letras minúsculas.
+
+# Nesse caso, o nome da classe é ButtonApp, 
+# então Kivy procurará um arquivo chamado button.kv. 
+# Se esse arquivo existir e estiver formatado corretamente, 
+# o Kivy o usará para carregar a interface do usuário.
+
+<Button>: 
+# A linha 1 corresponde à chamada Button em seu código Python. 
+#Ela diz ao Kivy para procurar no objeto instanciado uma definição de botão
+
+    text: 'Aperte o botão!' 
+    # A linha 2 define o text
+
+    size_hint: (.5, .5) 
+    # A linha 3 define a largura e a altura com size_hint
+
+    pos_hint: {'center_x': .5, 'center_y': .5} 
+    # A linha 4 define a posição do botão com pos_hint
+    
+    on_press: app.on_press_button() 
+    # A linha 5 define o manipulador de eventos on_press.
+    # Para informar ao Kivy onde está o manipulador de eventos, 
+    # você usa app.on_press_button(). 
+    # Aqui, o Kivy sabe que procurará na classe App por um método chamado .on_press_button().
