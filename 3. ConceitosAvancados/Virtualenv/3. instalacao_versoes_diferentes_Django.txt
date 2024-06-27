@@ -1,0 +1,44 @@
+# Criar nova pasta "clienete-1"
+mkdir cliente-1
+
+# Navegar até a pasta criada
+cd cliente-1
+
+# Criar o ambiente virtual 
+virtualenv venv --prompt="cliente-1"
+
+# Ativar o ambiente virtual (exemplo para Windows)
+.\venv\Scripts\activate
+
+# Instalar o Django
+pip install django==2.2.26
+
+# Listar todas as Packages
+pip list
+
+# Para desativar o ambiente virtual
+deactivate
+
+# Voltar até a pasta anterior
+cd ..
+
+# Criar nova pasta "clienete-2"
+mkdir cliente-2
+
+# Navegar até a pasta criada
+cd cliente-2
+
+# Criar o ambiente virtual 
+virtualenv venv --prompt="cliente-2"
+
+# Ativar o ambiente virtual (exemplo para Windows)
+.\venv\Scripts\activate
+
+# Instalar o Django
+pip install django==4.0.3
+
+# Listar todas as Packages
+pip list
+
+# Para desativar o ambiente virtual
+deactivate

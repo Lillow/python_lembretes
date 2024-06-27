@@ -1,0 +1,17 @@
+# Ativar o ambiente virtual (exemplo para Windows)
+.\venv\Scripts\activate
+
+# Instalar o Django
+pip install django
+
+# Verificar a instalação
+django-admin --version
+
+# Criar um novo projeto Django
+django-admin startproject formigas_urbanas
+
+# Navegar até o diretório do projeto
+cd projeto_teste
+
+# Rodar o servidor de desenvolvimento
+python manage.py runserver
