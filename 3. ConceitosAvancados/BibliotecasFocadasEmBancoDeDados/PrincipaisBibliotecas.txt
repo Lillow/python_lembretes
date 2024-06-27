@@ -1,0 +1,20 @@
+Sqlite3
+Para uso do banco Sqlite em python
+
+Mysql.connector
+Para o uso da conexão com o banco MySQL
+
+Psycopg2
+Para o uso do PostgreeSQL
+
+Cx_Oracle
+Para conexão com o Oracle
+
+SqlAlchemy
+Para criar as engines de conexão com o banco de dados de sua preferência
+
+Pyodbc
+Para o uso do SQL Server da Microsoft
+
+
+pip install <nome-da-biblioteca>
