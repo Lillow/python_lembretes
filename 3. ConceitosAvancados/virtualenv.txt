@@ -1,0 +1,17 @@
+# Instalar o virtualenv, caso ainda não tenha instalado
+pip install virtualenv
+
+# Navegar até o diretório do projeto
+cd /caminho/para/seu/projeto
+
+# Criar o ambiente virtual
+virtualenv venv
+
+# Ativar o ambiente virtual (exemplo para Windows)
+.\venv\Scripts\activate
+
+# Agora você pode instalar suas dependências, por exemplo:
+pip install flask
+
+# Para desativar o ambiente virtual
+deactivate
