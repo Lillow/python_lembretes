@@ -1,4 +1,5 @@
-É possível, também, fazer o encapsulamento e criar um arquivo executável utilizando a biblioteca pyinstaller:
+É possível, também, fazer o encapsulamento e 
+criar um arquivo executável utilizando a biblioteca pyinstaller:
                             
 pip install pyinstaller
                             
